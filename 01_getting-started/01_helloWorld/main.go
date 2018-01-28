@@ -3,8 +3,5 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("hello")
-	v := "h"
-
-	fmt.Printf("%d yes", v)
+	fmt.Println("I <3 Karina")
 }
