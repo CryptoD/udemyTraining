@@ -4,11 +4,11 @@ import "fmt"
 
 func main() {
 
-	myFriendsName := "Bob"
+	myFriendsName := "Mar"
 
 	switch {
-	case len(myFriendsName) == 3:
-		fmt.Println("Wassup my friend with name of length 3")
+	case len(myFriendsName) == 2:
+		fmt.Println("Wassup my friend with name of length 2")
 	case myFriendsName == "Tim":
 		fmt.Println("Wassup Tim")
 	case myFriendsName == "Jenny":
@@ -29,6 +29,4 @@ func main() {
   -- if no expression provided, go checks for the first case that evals to true
   -- makes the switch operate like if/if else/else
   cases can be expressions
-
-  len() to skrot od slowa lenght, i chodzi o to ze dlugosc tego co w nawiasie
 */

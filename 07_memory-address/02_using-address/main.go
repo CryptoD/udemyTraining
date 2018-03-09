@@ -2,16 +2,12 @@ package main
 
 import "fmt"
 
-var kmtom float64 = 1000
+const metersToYards float64 = 1.09361
 
-func main()  {
-
-	var km float64
-	fmt.Println("Wpisz kwote w km:")
-	fmt.Scan(&km)
-	var m = km * kmtom
-
-	fmt.Println("Po przeliczeniu wychodzi ", m, "metrow.")
-	fmt.Printf("Adres wyniku w pamieci RAM: %d", &m)
-
+func main() {
+	var meters float64
+	fmt.Print("Enter meters swam: ")
+	fmt.Scan(&meters)
+	yards := meters * metersToYards
+	fmt.Println(meters, " meters is ", yards, " yards.")
 }

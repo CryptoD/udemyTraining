@@ -20,5 +20,3 @@ func main() {
 		fmt.Println("Wassup Sushant")
 	}
 }
-
-// To co wczesniej ale jak jest fallthrough to sie przepierdala i tak, i wymusza kolejny case

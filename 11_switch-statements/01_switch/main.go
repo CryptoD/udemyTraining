@@ -20,7 +20,4 @@ func main() {
   fallthrough is optional
   -- you can specify fallthrough by explicitly stating it
   -- break isn't needed like in other languages
-
-  Cos jak "if" ale w druga strone. Najpierw napierdzielamy wynika a potem jak matches case
-  to jeb i print
 */
