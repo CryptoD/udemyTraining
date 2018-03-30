@@ -17,8 +17,10 @@ func main() {
 	fmt.Println(a) // 42
 
 	// this is useful
-	// we can pass a memory address instead of a bunch of values (we can pass a reference)
-	// and then we can still change the value of whatever is stored at that memory address
+	// we can pass a memory address instead of a bunch of values
+	// (we can pass a reference)
+	// and then we can still change the value of whatever is stored at that
+	// memory address
 	// this makes our programs more performant
 	// we don't have to pass around large amounts of data
 	// we only have to pass around addresses
