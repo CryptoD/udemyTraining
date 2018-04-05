@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 func main() {
-	for i := 250; i <= 340; i++ {
+	for i := 3500; i <= 3510; i++ {
 		fmt.Println(i, " - ", string(i), " - ", []byte(string(i)))
 	}
 	foo := "a"
