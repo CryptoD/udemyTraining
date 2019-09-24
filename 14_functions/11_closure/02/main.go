@@ -12,6 +12,8 @@ func increment() int {
 func main() {
 	fmt.Println(increment())
 	fmt.Println(increment())
+	fmt.Println(increment())
+	fmt.Println(increment())
 }
 
 /*
