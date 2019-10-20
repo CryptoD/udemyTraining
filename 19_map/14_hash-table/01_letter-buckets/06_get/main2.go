@@ -19,3 +19,5 @@ func main() {
 	}
 	fmt.Printf("%s", bs)
 }
+
+// note to take from this lesson: You can use any word instead of err

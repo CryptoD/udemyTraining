@@ -8,7 +8,7 @@ import (
 )
 
 func main() {
-	a, err := http.Get("https://www.hostinger.com/")
+	a, err := http.Get("https://www.google.com/")
 
 	if err != nil {
 		log.Fatal(err)
@@ -21,4 +21,5 @@ func main() {
 		log.Fatal(err)
 	}
 	fmt.Println("%t", b)
+	fmt.Printf("%s", b)
 }
