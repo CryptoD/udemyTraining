@@ -1,6 +1,6 @@
 package details1
 
-var Karina = "Karina"
+var Danny2 = "Danny2"
 var Danny = "Danny"
 
 // Wlasna nazwa pakietu do zaimportowania do main.go.
