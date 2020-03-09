@@ -11,3 +11,5 @@ func main() {
 	z, _ := strconv.Atoi(x)
 	fmt.Println(y + z)
 }
+
+// strconv is a library that helps convert shit
