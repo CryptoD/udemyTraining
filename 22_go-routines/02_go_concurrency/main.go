@@ -18,3 +18,5 @@ func bar() {
 		fmt.Println("Bar:", i)
 	}
 }
+// This one doesn't print anything. So something else has to be added.
+// D.

@@ -18,3 +18,7 @@ func second() {
 		fmt.Println("Option B: ", c)
 	}
 }
+
+// This prints normal stuff. First "first" then "second".
+// Kind of like if they were fmt.Println one after another
+// D.
