@@ -1,14 +1,15 @@
 package main
 
 import "fmt"
+
 func main() {
 
-for a := 1; a < 20; a++ {
+	for a := 1; a < 20; a++ {
 
-	if a == 1 {
-		fmt.Println("One")
-	} else {
-	fmt.Println("Other")
-}
-}
+		if a == 1 {
+			fmt.Println("One")
+		} else {
+			fmt.Println("Other")
+		}
+	}
 }

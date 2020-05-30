@@ -9,5 +9,6 @@ func one(n int) (int, bool) {
 func main() {
 	fmt.Println(one(5))
 }
+
 // func one creates "n" that is expressed in two types: int and bool.
 // Then in return you just put whatever you want them to be

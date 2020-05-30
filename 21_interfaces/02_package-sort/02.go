@@ -1,10 +1,11 @@
 package main
+
 import "fmt"
 import "sort"
 
 func main() {
-  s := []string{"Zeno", "John", "Al", "Jenny"}
-  sort.Sort(sort.StringSlice(s))
-fmt.Println(s)
+	s := []string{"Zeno", "John", "Al", "Jenny"}
+	sort.Sort(sort.StringSlice(s))
+	fmt.Println(s)
 
 }

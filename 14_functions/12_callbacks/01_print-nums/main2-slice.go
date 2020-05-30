@@ -1,10 +1,11 @@
 package main
 
 import "fmt"
+
 func main() {
- a := []int{1, 3, 5, 500}
- b = a + 3
- fmt.Print(a, b)
+	a := []int{1, 3, 5, 500}
+	b = a + 3
+	fmt.Print(a, b)
 
 }
 

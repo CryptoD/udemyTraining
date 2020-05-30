@@ -18,7 +18,7 @@ func main() {
 		for {
 			fmt.Println(<-c)
 		}
-	
+
 	}()
 
 	time.Sleep(time.Second)

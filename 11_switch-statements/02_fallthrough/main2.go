@@ -10,7 +10,7 @@ func main() {
 		fmt.Println("2")
 	case "Three":
 		fmt.Println("3")
-    fallthrough
+		fallthrough
 	case "Four":
 		fmt.Println("4")
 	case "Five":

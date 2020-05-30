@@ -10,7 +10,7 @@ type person struct {
 	Last        string
 	Age         int
 	notExported int
-	Exported int
+	Exported    int
 }
 
 func main() {
@@ -22,6 +22,7 @@ func main() {
 	xyz := (string(bs))
 	fmt.Println(xyz)
 }
+
 // I was testing different settings in this file. Finally found what was causing auto
 // formatting and constantly changing location of where I type. It was UI settings (not
 // Go Plus settings, those are fine.

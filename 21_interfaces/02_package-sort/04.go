@@ -1,5 +1,6 @@
 package main
-import "fmt" 
+
+import "fmt"
 import "sort"
 
 func main() {
@@ -7,6 +8,5 @@ func main() {
 	s := []string{"Zeno", "John", "Al", "Jenny"}
 	sort.Strings(s)
 	fmt.Println(s)
-
 
 }
